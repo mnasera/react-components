@@ -1,0 +1,129 @@
+.empty-state-card-body {
+  min-height: 540px !important;
+  height: 60vh !important;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-state-msg1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.empty-state-msg2 {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.empty-state-pic {
+  padding: 3rem 0 3rem 0;
+}
+
+.empty-state-btn {
+  margin: 3rem 0 3rem 0;
+}
+
+.input-search {
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.color-radio-group input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-clip: content-box;
+  border: 1px solid #9eaceb;
+  border-radius: 50%;
+  background-color: red;
+  cursor: pointer;
+}
+
+.color-radio-group input[type="radio"]:checked {
+  display: inline-block;
+  padding: 5px !important;
+  background-color: #7a5d12;
+}
+
+.size-radio-group input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  width: 63px;
+  height: 34px;
+  border-radius: 5px;
+  background-clip: content-box;
+  border: 1px solid #eceef4;
+  cursor: pointer;
+}
+
+.size-radio-group input[type="radio"]:checked {
+  border: 1px solid rgba(85, 110, 230, 0.6);
+}
+
+.input-metric {
+  background-color: #eceef4;
+  border: 1px solid #e7e3e3;
+  border-radius: 5px;
+}
+
+.input-metric-key {
+  color: #808191;
+}
+
+.input-metric input {
+  background-color: transparent;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #e7e3e3;
+  background-color: rgb(236, 238, 244);
+}
+
+.input-container input,
+.input-container input:focus,
+.input-container textarea,
+.input-container textarea:focus {
+  border: 0;
+  background-color: rgb(236, 238, 244);
+}
+
+.error-msg {
+  margin-left: 5px;
+  font-size: 0.8em;
+}
+
+.error-border {
+  border: 1px solid red;
+}
+
+.btn-action {
+  background-color: #556ee6 !important;
+  color: #fff !important;
+}
+
+.btn-social {
+  position: relative;
+  left: -30px;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.btn-social-close {
+  top: -10px;
+  font-size: 1rem;
+  position: relative;
+  color: red;
+  cursor: pointer;
+}
